@@ -8,7 +8,15 @@ button {
     height: 50px;
     width: 50px;
     border-radius: 90px;
+    font-weight: bold;
+}
+
+.number {
     background-color: rgb(224, 234, 26);
+}
+
+#clearButton {
+    background-color: rgb(233, 93, 93);
 }
 
 #container {
@@ -36,7 +44,7 @@ button {
 
 #screen {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
     background-color: lightgray;
     height: 100px;
